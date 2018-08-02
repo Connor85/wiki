@@ -2,22 +2,46 @@ body  {
   background-color: #F6F6F6;
 }
 
-.logo img {
+.col-md-2 img {
   width:160px;
   margin-right: 30px;
 }
 
-.logo ul{
+.col-md-2 ul{
   list-style-type: none;
-  float:right;
-  columns: 5;
   font-size: 0.75em;
+  padding-left: 20px;
 }
 
-.container {
+.main-body  {
+  clear: left;
+}
+
+.side-bar ul {
+  display: inline-block;
+  columns: 1;
+  list-style-type: none;
+}
+
+.log-in ul {
+  float: right;
+  columns: 5;
+  list-style-type: none;
+}
+
+.tabs {
+  margin-top: 45px;
+}
+
+h3  {
+  font-size: 0.75em;
+    color: #444444;
+    font-weight: normal;
+    margin: 0.5em 0 0 0.66666667em;
+    padding: 0.25em 0;
+    text-decoration: underline;
 }
 
 .side-bar {
-  display: inline-block;
-  columns: 1;
+  border-right: 1px solid black;
 }
