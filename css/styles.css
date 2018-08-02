@@ -29,8 +29,12 @@ body  {
   list-style-type: none;
 }
 
-.tabs {
+.tabs-nav-left {
   margin-top: 45px;
+}
+
+.tabs-nav-right {
+  float:right;
 }
 
 h3  {
